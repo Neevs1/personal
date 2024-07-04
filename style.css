@@ -23,14 +23,12 @@
 
 .item1{
     
-    grid-row: 1/6;
+    grid-row: 1/8;
   }
 .menu{
     grid-column: 2/9;
 }
-.content{
-    grid-area : main;
-}
+
 
 .grid-container{
     display: grid;
