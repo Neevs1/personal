@@ -24,6 +24,9 @@
   .header1{
     grid-area: 'header';
   }
+  .menu{
+    grid-area: menu;
+  }
 
 
   .grid-container{
