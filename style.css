@@ -21,4 +21,19 @@
     color: white;
   }
 
+  .header1{
+    grid-area: 'header';
+  }
+
+
+  .grid-container{
+    display: grid;
+    grid-template-areas: 'header header header header header'
+                         'menu main main main main main';
+    gap: 10px;
+    background-color: #007bb5;                     
+  }
+
+
+
   
