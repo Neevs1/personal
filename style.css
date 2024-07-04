@@ -21,22 +21,28 @@
     color: white;
   }
 
-  .header1{
+.header1{
     grid-area: 'header';
   }
-  .menu{
+.menu{
     grid-area: menu;
   }
+.content{
+    grid-area : main;
+}
 
-
-  .grid-container{
+.grid-container{
     display: grid;
     grid-template-areas: 'header header header header header'
-                         'menu main main main main main';
+                         'menu main main main main main'
+                         'menu left left right right';
     gap: 10px;
-    background-color: #007bb5;                     
+    background-color: grey;                    
   }
 
+  .grid-container>div{
+    background-color: aliceblue;
+  }
 
 
   
