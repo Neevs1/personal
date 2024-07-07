@@ -34,7 +34,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     gap: 10px;
-    background-color: grey;                    
+    background-color: grey;
+    height:100%;
+    width:100%;                    
   }
 
   .grid-container>div{
