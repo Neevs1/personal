@@ -24,6 +24,7 @@
 .item1{
     
     grid-row: 1/8;
+    padding:10rem;
   }
 .menu{
     grid-column: 2/5;
@@ -47,6 +48,6 @@
 
 button.item1{
   background-color: gray;
-  
+  width: fit-content;
 
 }
