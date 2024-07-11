@@ -52,3 +52,9 @@ button.menubutton{
   color: aliceblue;
 
 }
+.item2{
+  grid-row: 2/8;
+}
+.item3{
+  grid-row: 3/8;
+}
