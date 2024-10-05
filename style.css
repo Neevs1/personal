@@ -1,60 +1,6 @@
-
-
-#myimg {
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-    
-}
-
-.fa{
-    height:25px;
-    width:25px;
-    border-radius:25px;
-    padding: 0.15rem;
-    text-align: center;
-
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-
-.item1{
-    
-    grid-row: 1/8;
-    padding:10rem;
-  }
-.menu{
-    grid-column: 2/5;
-}
-
-
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 10px;
-    background-color: grey;
-    height:100vh;
-    width:100vw;                    
-  }
-
-  .grid-container>div{
-    background-color: aliceblue;
-    padding: 10px;
-  }
-
-
-button.menubutton{
-  background-color: gray;
-  width:100%;
-  color: aliceblue;
-
-}
-.item2{
-  grid-row: 2/8;
-}
-.item3{
-  grid-row: 3/8;
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
